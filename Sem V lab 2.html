@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<title>Expression Evaluation</title>
+	<script type = "text/javascript">
+	function Evaluation(){
+	var x = document.getElementById("expr").value;
+	document.getElementById("result").value=eval(x)
+	}
+	</script>
+</head>
+
+<body>
+	<form name="myForm">
+	Enter any valid Expression:<input type = "text" id="expr"><br>result:<input type="text" id="result"><br>
+	<input type="button" value="calculate" onclick="Evaluation()">
+	</form>
+</body>
+</html>

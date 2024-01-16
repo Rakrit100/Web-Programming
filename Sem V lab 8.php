@@ -1,0 +1,26 @@
+<?php
+$today=date("l");
+print("$today");
+if($today=="Sunday"){
+$bgcolor="#ffffff";
+}
+elseif($today=="Monday"){
+	$bgcolor="#ffff00";
+}
+elseif($today=="Tuesday"){
+	$bgcolor="#ff00ff";
+}
+elseif($today=="Wednesday"){
+	$bgcolor="#00ffff";
+}
+elseif($today=="Thusday"){
+	$bgcolor="#ff0000";
+}
+elseif($today=="Friday"){
+	$bgcolor="#00ff00";
+}
+else{
+	$bgcolor="#0000ff";
+}
+print("<body bgcolor=\"$bgcolor\">\n");
+?>
